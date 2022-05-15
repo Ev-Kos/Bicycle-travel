@@ -1,0 +1,37 @@
+.workouts__image {
+    max-width: 580px;
+    max-height: 460px;
+    grid-row: 1/4;
+    grid-column: 2;
+    margin: 0 0 0 160px;
+}
+
+@media screen and (max-width: $screen--lg) {
+    .workouts__image {
+        max-width: 500px;
+        height: auto;
+        margin: 43px 0 0 0;
+    }
+}
+
+@media screen and (max-width: $screen--md) {
+    .workouts__image {
+        max-width: 370px;
+    }
+}
+
+@media screen and (max-width: $screen--s) {
+    .workouts__image {
+        max-width: 370px;
+        grid-row: 2;
+        grid-column: 1;
+        margin: 45px 0 0 0;
+    }
+}
+
+@media screen and (max-width: $screen--xs) {
+    .workouts__image {
+        max-width: 284px;
+        max-height: 225px;
+    }
+}

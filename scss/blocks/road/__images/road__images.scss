@@ -1,0 +1,22 @@
+.road__images {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, auto);
+    justify-content: space-between;
+    margin: 80px 0 0 0;
+    gap: 40px;
+    grid-row: 3;
+}
+
+@media screen and(max-width: $screen--lg) {
+    .road__images {
+        gap: 10px;
+    }
+}
+
+@media screen and(max-width: $screen--s) {
+    .road__images {
+        gap: 0;
+        grid-template-columns: none;
+    }
+}

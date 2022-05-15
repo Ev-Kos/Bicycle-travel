@@ -1,0 +1,19 @@
+.footer__conteiner {
+    display: flex;
+    justify-content: space-between;
+    margin: 89px 120px 0 120px;
+    padding-bottom: 60px;
+}
+
+@media screen and (max-width: $screen--s) {
+    .footer__conteiner {
+        margin: 88px 18px 0 50px;
+        padding-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: $screen--xs) {
+    .footer__conteiner {
+        margin: 88px 18px 0 18px;
+    }
+}

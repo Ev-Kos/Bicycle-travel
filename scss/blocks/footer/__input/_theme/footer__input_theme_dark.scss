@@ -1,0 +1,23 @@
+.footer__input_theme_dark {
+    border: 1px solid #7D7D7D80;
+    background-color: $color-background--footer-dark;
+}
+
+.footer__input_theme_dark:hover {
+    cursor: url(../../../../../image/icon-cursor-dark.svg), pointer;
+}
+
+.footer__input_theme_dark::-webkit-input-placeholder {
+    color: $text-color--title-dark;
+  }
+  .footer__input_theme_dark::-moz-placeholder {
+    color: $text-color--title-dark;
+  }
+
+  .footer__input_theme_dark::-ms-input-placeholder {
+    color: $text-color--title-dark;
+  }
+  
+  .footer__input_theme_dark::placeholder {
+    color: $text-color--title-dark;
+  }

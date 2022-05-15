@@ -1,0 +1,30 @@
+.road__image {
+    max-width: 100%;
+    object-fit: fill;
+}
+
+@media screen and(max-width: $screen--lg) {
+    .road__image {
+        max-width: 445px;
+    }
+}
+
+@media screen and(max-width: $screen--md) {
+    .road__image {
+        max-width: 330px;
+    }
+}
+
+@media screen and(max-width: $screen--s) {
+    .road__image {
+        max-width: 362px;
+        margin: 45px 0 0 50px;
+    }
+}
+
+@media screen and(max-width: $screen--xs) {
+    .road__image {
+        max-width: 284px;
+        margin: 44px 0 0 18px;
+    }
+}

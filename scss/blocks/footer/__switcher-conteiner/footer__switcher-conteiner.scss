@@ -1,0 +1,11 @@
+.footer__switcher-conteiner {
+    display: flex;
+    gap: 24px;
+    margin-bottom: 5px;
+}
+
+@media screen and (max-width: $screen--s) {
+    .footer__switcher-conteiner {
+        display: none;
+    }
+}

@@ -1,0 +1,10 @@
+.roads {
+    margin: 0;
+    max-width: 100%;
+}
+
+@media screen and (max-width: $screen--s) {
+    .roads {
+        display: none;
+    }
+}

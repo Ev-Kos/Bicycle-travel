@@ -1,0 +1,11 @@
+.bicycles__header-conteiner {
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: $screen--s) {
+    .bicycles__header-conteiner {
+        display: none;
+    }
+}

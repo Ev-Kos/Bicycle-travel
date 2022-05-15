@@ -1,0 +1,29 @@
+.footer__input-text {
+    font-size: $font-size--placeholder;
+    font-weight: $font-weight--medium;
+    line-height: $line-height;
+    color: $text-color--title-light;
+    grid-row: 1;
+    grid-column: 1;
+    margin: 37px 0 5px 455px;
+    max-width: 16px;
+    border: none;
+    padding: 0;
+    background-color: transparent;
+}
+
+.footer__input-text:hover {
+    cursor: url(../../../../image/icon-cursor.svg), pointer;
+}
+
+@media screen and (max-width: $screen--s) {
+    .footer__input-text {
+        margin: 38px 0 5px 310px;
+    }
+}
+
+@media screen and (max-width: $screen--xs) {
+    .footer__input-text {
+        margin: 38px 0 5px 274px;
+    }
+}

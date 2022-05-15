@@ -1,0 +1,98 @@
+.footer__input {
+    margin: 26px 0 0 120px;
+    width: 339px;
+    height: 47px;
+    border: 1px solid #C7C7C780;
+    padding: 2px 0 0 19px;
+    border-radius: 4px;
+    background-color: transparent;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+.footer__input:hover {
+    cursor: url(../../../../image/icon-cursor.svg), pointer;
+}
+
+.footer__input:focus {
+    outline: none;
+}
+
+.footer__input::-webkit-input-placeholder {
+    font-size: $font-size--placeholder;
+    font-weight: $font-weight--medium;
+    line-height: $line-height;
+    color: $text-color--title-light;
+    opacity: 0.7;
+  }
+
+  .footer__input::-moz-placeholder {
+    font-size: $font-size--placeholder;
+    font-weight: $font-weight--medium;
+    line-height: $line-height;
+    color: $text-color--title-light;
+    opacity: 0.7;
+  }
+
+  .footer__input::-ms-input-placeholder {
+    font-size: $font-size--placeholder;
+    font-weight: $font-weight--medium;
+    line-height: $line-height;
+    color: $text-color--title-light;
+    opacity: 0.7;
+  }
+  
+  .footer__input::placeholder {
+    font-size: $font-size--placeholder;
+    font-weight: $font-weight--medium;
+    line-height: $line-height;
+    color: $text-color--title-light;
+    opacity: 0.7;
+  }
+
+  .footer__input:hover::-webkit-input-placeholder {
+      opacity: 1;
+  }
+
+  .footer__input:hover::-moz-placeholder {
+    opacity: 1;
+}
+
+  .footer__input:hover::-ms-input-placeholder {
+    opacity: 1;
+}
+
+  .footer__input:hover::placeholder {
+    opacity: 1;
+}
+
+
+.footer__input:focus::-webkit-input-placeholder {
+    opacity: 0;
+}
+
+.footer__input:focus::-moz-placeholder {
+    opacity: 0;
+}
+
+.footer__input:focus::-ms-input-placeholder {
+    opacity: 0;
+}
+
+.footer__input:focus::placeholder {
+    opacity: 0;
+}
+
+@media screen and (max-width: $screen--s) {
+    .footer__input {
+        margin: 18px 0 0 50px;
+        width: 264px;
+        padding: 2px 0 0 18px;
+    }
+}
+
+@media screen and (max-width: $screen--xs) {
+    .footer__input {
+        margin: 15px 0 0 18px;
+    }
+}

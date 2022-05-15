@@ -1,0 +1,26 @@
+.road__description {
+    margin: 45px 0 0 0;
+    font-size: $font-size--description;
+    font-weight: $font-weight--regular;
+    line-height: 1.6;
+    max-width: 460px;
+    color: $text-color--description-light;
+    opacity: 0.7;
+}
+
+@media screen and(max-width: $screen--s) {
+    .road__description {
+        margin: 30px 0 0 50px;
+        font-size: $font-size--header-nav;
+        max-width: 386px;
+    }
+}
+
+@media screen and(max-width: $screen--xs) {
+    .road__description {
+        margin: 0 18px 0 18px;
+        font-size: $font-size--description-mobile;
+        line-height: 1.5;
+        max-width: 278px;
+    }
+}

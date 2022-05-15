@@ -1,0 +1,18 @@
+.workouts__link {
+    font-size: $font-size--description;
+    font-weight: $font-weight--SemiBold;
+    line-height: $line-height;
+    color: $text-color--title-light;
+    text-decoration: none;
+}
+
+.workouts__link:hover {
+    cursor: url(../../../../image/icon-cursor.svg), pointer;
+    opacity: 0.75;
+}
+
+@media screen and (max-width: $screen--s) {
+    .workouts__link {
+        font-size: $font-size--header-nav;
+    }
+}

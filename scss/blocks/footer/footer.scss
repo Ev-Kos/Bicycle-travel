@@ -1,0 +1,13 @@
+.footer {
+    background-color: $color-background--footer-light;
+    max-width: 100%;
+    max-height: 424px;
+    margin: 117px 0 0 0;
+}
+
+@media screen and (max-width: $screen--s) {
+    .footer {
+        max-height: 358px;
+        margin: 66px 0 0 0;
+    }
+}

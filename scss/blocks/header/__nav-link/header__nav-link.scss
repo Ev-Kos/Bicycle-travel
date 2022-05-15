@@ -1,0 +1,13 @@
+.header__nav-link {
+    font-size: $font-size--header-nav;
+    font-weight: $font-weight--medium;
+    line-height: $line-height;
+    letter-spacing: 0.3px;
+    color: $text-color--title-light;
+    text-decoration: none;
+}
+
+.header__nav-link:hover {
+    cursor: url(../../../../image/icon-cursor.svg), pointer;
+    opacity: 0.75;
+}

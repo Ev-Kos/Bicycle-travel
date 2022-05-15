@@ -1,0 +1,8 @@
+.header__nav-link_theme_dark {
+    color: $text-color--title-dark;
+}
+
+.header__nav-link_theme_dark:hover {
+    opacity: 0.65;
+    cursor: url(../../../../../../image/icon-cursor-dark.svg), pointer;
+}

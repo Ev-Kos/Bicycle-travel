@@ -1,0 +1,11 @@
+.road__conteiner {
+    margin: 80px 0 0 0;
+    display: flex;
+    gap: 40px;
+}
+
+@media screen and(max-width: $screen--lg) {
+    .road__conteiner {
+        gap: 30px;
+    }
+}

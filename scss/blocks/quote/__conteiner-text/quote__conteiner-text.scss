@@ -1,0 +1,29 @@
+.quote__conteiner-text {
+    display: flex;
+    flex-direction: column;
+    max-width: 590px;
+    margin: 116px 120px 60px 80px;
+}
+@media screen and (max-width: $screen--lg) {
+    .quote__conteiner-text {
+        margin: 60px 45px 0 0;
+    }
+}
+
+@media screen and (max-width: $screen--md) {
+    .quote__conteiner-text {
+        margin: 40px 0 0 0;
+    }
+}
+
+@media screen and (max-width: $screen--s) {
+    .quote__conteiner-text {
+        margin: 42px 0 0 10px;
+    }
+}
+
+@media screen and (max-width: $screen--xs) {
+    .quote__conteiner-text {
+        margin: 42px 18px 0 18px;
+    }
+}

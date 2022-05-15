@@ -1,0 +1,20 @@
+.road__sticky-images {
+    position: relative;
+    bottom: 54px;
+    max-width: 100px;
+    max-height: 40px;
+    z-index: 1;
+}
+
+@media screen and(max-width: $screen--s) {
+    .road__sticky-images {
+        bottom: 46px;
+        left: 49px;
+    }
+}
+
+@media screen and(max-width: $screen--xs) {
+    .road__sticky-images {
+        left: 18px;
+    }
+}

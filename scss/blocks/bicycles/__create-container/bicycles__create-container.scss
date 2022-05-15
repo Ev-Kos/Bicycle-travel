@@ -1,0 +1,17 @@
+.bicycles__create-container {
+    max-width: 100%;
+    margin: 127px 0 0 120px;
+}
+    
+ @media screen and(max-width: $screen--lg) {
+    .bicycles__create-container {
+        margin: 55px 0 0 60px;
+    }
+}
+    
+@media screen and(max-width: $screen--s) {
+    .bicycles__create-container {
+        max-width: 320px;
+        margin: 67px 0 0 50px;
+    }
+}

@@ -1,0 +1,145 @@
+@import '../vendor/normalize.scss';
+@import '../vendor/fonts/fonts.scss';
+@import '../vendor/variables.scss';
+
+@import '../scss/blocks/page/page.scss';
+@import '../scss/blocks/page/_theme/page_theme_dark.scss';
+
+@import '../scss/blocks/header/__nav-icon-conteiner/header__nav-icon-conteiner.scss';
+@import '../scss/blocks/header/__nav-icon/header__nav-icon.scss';
+@import '../scss/blocks/header/__nav-link/header__nav-link.scss';
+@import '../scss/blocks/header/__nav-link/_theme/header__nav-link_theme_dark.scss';
+@import '../scss/blocks/header/__nav-links/header__nav-links.scss';
+@import '../scss/blocks/header/__nav/header__nav.scss';
+@import '../scss/blocks/header/header.scss';
+
+@import '../scss/blocks/intro/__button/intro__button.scss';
+@import '../scss/blocks/intro/__button/_theme/intro__button_theme_dark.scss';
+@import '../scss/blocks/intro/__container/intro__container.scss';
+@import '../scss/blocks/intro/__description/intro__description.scss';
+@import '../scss/blocks/intro/__description/_theme/intro__description_theme_dark.scss';
+@import '../scss/blocks/intro/__image/intro__image.scss';
+@import '../scss/blocks/intro/__images/intro__images.scss';
+@import '../scss/blocks/intro/__line/_theme/intro__line_theme_dark.scss';
+@import '../scss/blocks/intro/__line/intro__line.scss';
+@import '../scss/blocks/intro/__sticky-image/intro__sticky-image.scss';
+@import '../scss/blocks/intro/__sticky-name-conteiner/intro__sticky-name-conteiner.scss';
+@import '../scss/blocks/intro/__sticky-name/intro__sticky-name.scss';
+@import '../scss/blocks/intro/__sticky-name/_theme/intro__sticky-name_theme_dark.scss';
+@import '../scss/blocks/intro/__text-button/intro__text-button.scss';
+@import '../scss/blocks/intro/__title/intro__title.scss';
+@import '../scss/blocks/intro/__title/_theme/intro__title_theme_dark.scss';
+@import '../scss/blocks/intro/intro.scss';
+
+@import '../scss/blocks/intro-mobile/intro-mobile.scss';
+
+@import '../scss/blocks/quote/__author-profession/quote__author-profession.scss';
+@import '../scss/blocks/quote/__author-profession/_theme/quote__author-profession_theme_dark.scss';
+@import '../scss/blocks/quote/__author/quote__author.scss';
+@import '../scss/blocks/quote/__author/_theme/quote__author_theme_dark.scss';
+@import '../scss/blocks/quote/__conteiner-text/quote__conteiner-text.scss';
+@import '../scss/blocks/quote/__image/quote__image.scss';
+@import '../scss/blocks/quote/__line/quote__line.scss';
+@import '../scss/blocks/quote/__text/_theme/quote__text_theme_dark.scss';
+@import '../scss/blocks/quote/__text/quote__text.scss';
+@import '../scss/blocks/quote/quote.scss';
+
+@import '../scss/blocks/roads/roads.scss';
+@import '../scss/blocks/road/__button/road__button.scss';
+@import '../scss/blocks/road/__button/_theme/road__button_theme_dark.scss';
+@import '../scss/blocks/road/__buttons/road__buttons.scss';
+@import '../scss/blocks/road/__conteiner/road__conteiner.scss';
+@import '../scss/blocks/road/__description/road__description.scss';
+@import '../scss/blocks/road/__description/_theme/road__description_theme_dark.scss';
+@import '../scss/blocks/road/__image-not-stycky/road__image-not-stycky.scss';
+@import '../scss/blocks/road/__image/road__image.scss';
+@import '../scss/blocks/road/__sticky-images/road__sticky-images.scss';
+@import '../scss/blocks/road/__sticky-image/road__sticky-image.scss';
+@import '../scss/blocks/road/__sticky-line/road__sticky-line.scss';
+@import '../scss/blocks/road/__type/road__type.scss';
+@import '../scss/blocks/road/__type/_theme/road__type_theme_dark.scss';
+
+@import '../scss/blocks/road/_hidden/road_hidden.scss';
+@import '../scss/blocks/road/road.scss';
+
+@import '../scss/blocks/roads-mobile/roads-mobile.scss';
+
+@import '../scss/blocks/road-mobile/road-mobile.scss';
+@import '../scss/blocks/road-mobile/__conteiner/road-mobile__conteiner.scss';
+@import '../scss/blocks/road-mobile/_hidden/road-mobile_hidden.scss';
+
+@import '../scss/blocks/bicycles-conteiner/bicycles-conteiner.scss';
+@import '../scss/blocks/bicycles-conteiner/__card/bicycles-conteiner__card.scss';
+@import '../scss/blocks/bicycles-conteiner/__fond/bicycles-conteiner__fond.scss';
+@import '../scss/blocks/bicycles-conteiner/__image/bicycles-conteiner__image.scss';
+@import '../scss/blocks/bicycles-conteiner/__caption/_theme/bicycles-conteiner__caption_theme_dark.scss';
+@import '../scss/blocks/bicycles-conteiner/__caption/bicycles-conteiner__caption.scss';
+@import '../scss/blocks/bicycles-conteiner/__link/_theme/bicycles-conteiner__link_theme_dark.scss';
+@import '../scss/blocks/bicycles-conteiner/__link/bicycles-conteiner__link.scss';
+@import '../scss/blocks/bicycles-conteiner/__card/_hidden/bicycles-conteiner__card_hidden.scss';
+@import '../scss/blocks/bicycles/bicycles.scss';
+@import '../scss/blocks/bicycles/__header-conteiner/bicycles__header-conteiner.scss';
+@import '../scss/blocks/bicycles/__nav/bicycles__nav.scss';
+
+@import '../scss/blocks/bicycles/__link/_theme/bicycles__link_theme_dark.scss';
+@import '../scss/blocks/bicycles/__link/bicycles__link.scss';
+@import '../scss/blocks/bicycles/__link/_active/bicycles__link_active.scss';
+@import '../scss/blocks/bicycles/__link/_active/_theme/bicycles__link_active_theme_dark.scss';
+
+@import '../scss/blocks/bicycles/__create-container/bicycles__create-container.scss';
+@import '../scss/blocks/bicycles/__create-container/_hidden/bicycles__create-container_hidden.scss';
+
+
+@import '../scss/blocks/bicycles-mobile/bicycles-mobile.scss';
+@import '../scss/blocks/bicycles-mobile/__header-container/bicycles-mobile__header-container.scss';
+@import '../scss/blocks/bicycles-mobile/__filter-container/bicycles-mobile__filter-container.scss';
+@import '../scss/blocks/bicycles-mobile/__point-conteiner/bicycles-mobile__point-conteiner.scss';
+@import '../scss/blocks/bicycles-mobile/__point/bicycles-mobile__point.scss';
+@import '../scss/blocks/bicycles-mobile/__point/_active/bicycles-mobile__point_active.scss';
+@import '../scss/blocks/bicycles-mobile/__conteiner/bicycles-mobile__conteiner.scss';
+@import '../scss/blocks/bicycles-mobile/__conteiner/_hidden/bicycles-mobile__conteiner_hidden.scss';
+
+@import '../scss/blocks/bicycles-mobile-image/bicycles-mobile-image.scss';
+
+@import '../scss/blocks/workouts/workouts.scss';
+@import '../scss/blocks/workouts/__container/workouts__container.scss';
+@import '../scss/blocks/workouts/__image/workouts__image.scss';
+@import '../scss/blocks/workouts/__description/_theme/workouts__description_theme_dark.scss';
+@import '../scss/blocks/workouts/__description/workouts__description.scss';
+@import '../scss/blocks/workouts/__links/workouts__links.scss';
+@import '../scss/blocks/workouts/__link/workouts__link.scss';
+@import '../scss/blocks/workouts/__link/_theme/workouts__link_theme_dark.scss';
+
+@import '../scss/blocks/footer/footer.scss';
+@import '../scss/blocks/footer/_theme/footer_theme_dark.scss';
+@import '../scss/blocks/footer/__title/footer__title.scss';
+@import '../scss/blocks/footer/__title/_theme/footer__title_theme_dark.scss';
+@import '../scss/blocks/footer/__form/footer__form.scss';
+@import '../scss/blocks/footer/__input/footer__input.scss';
+@import '../scss/blocks/footer/__input/_theme/footer__input_theme_dark.scss';
+@import '../scss/blocks/footer/__conteiner/footer__conteiner.scss';
+@import '../scss/blocks/footer/__author/_theme/footer__author_theme_dark.scss';
+@import '../scss/blocks/footer/__author/footer__author.scss';
+@import '../scss/blocks/footer/__mobile-icon/footer__mobile-icon.scss';
+@import '../scss/blocks/footer/__switcher-conteiner/footer__switcher-conteiner.scss';
+@import '../scss/blocks/footer/__icon-sun/footer__icon-sun.scss';
+@import '../scss/blocks/footer/__icon-sun/_theme/footer__icon-sun_theme_dark.scss';
+@import '../scss/blocks/footer/__icon-moon/footer__icon-moon.scss';
+@import '../scss/blocks/footer/__icon-moon/_theme/footer__icon-moon_theme_dark.scss';
+@import '../scss/blocks/footer/__input-text/footer__input-text.scss';
+@import '../scss/blocks/footer/__input-text/_theme/footer__input-text.scss';
+@import '../scss/blocks/footer/__switcher-conteiner/_mobile/footer__switcher-conteiner_mobile_open.scss';
+@import '../scss/blocks/footer/__input-text/_hidden/footer__input-text_hidden.scss';
+@import '../scss/blocks/footer/__switcher/footer__switcher.scss';
+@import '../scss/blocks/footer/__switcher-icon/footer__switcher-icon.scss';
+@import '../scss/blocks/footer/__switcher-icon/_theme/footer__switcher-icon_theme_dark.scss';
+
+@import '../scss/blocks/popup/popup.scss';
+@import '../scss/blocks/popup/_opened/popup_opened.scss';
+@import '../scss/blocks/popup/__close/popup__close.scss';
+@import '../scss/blocks/popup/__nav/popup__nav.scss';
+@import '../scss/blocks/popup/__nav-links/popup__nav-links.scss';
+@import '../scss/blocks/popup/__nav-link/popup__nav-link.scss';
+
+
+

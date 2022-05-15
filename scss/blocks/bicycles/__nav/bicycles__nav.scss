@@ -1,0 +1,11 @@
+.bicycles__nav {
+    display: flex;
+    gap: 38px;
+    list-style-type: none;
+    margin: 26px 0 0 0;
+}
+
+.bicycles__link:hover {
+    cursor: url(../../../../../image/icon-cursor.svg), pointer;
+    opacity: 0.6;
+}

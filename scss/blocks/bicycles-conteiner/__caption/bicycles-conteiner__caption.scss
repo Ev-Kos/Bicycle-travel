@@ -1,0 +1,15 @@
+.bicycles-conteiner__caption {
+    font-size: $font-size--description;
+    font-weight: $font-weight--SemiBold;
+    line-height: $line-height;
+    margin: 20px 0 0 7px;
+}
+
+@media screen and (max-width: $screen--xs){
+    .bicycles-conteiner__caption {
+        font-size: $font-size--header-nav;
+        margin: 273px 0 0 73px;
+        grid-row: 1;
+        grid-column: 1;
+    }  
+}

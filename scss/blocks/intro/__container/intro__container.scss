@@ -1,0 +1,28 @@
+.intro__container {
+    margin: 26px 0 209px 120px;
+    max-width: 460px;
+}
+
+@media screen and (max-width: $screen--lg) {
+    .intro__container {
+        margin: 60px 0 0 60px;
+    }
+}
+
+@media screen and (max-width: $screen--md) {
+    .intro__container {
+        margin: 29px 0 0 50px;
+    }
+}
+
+@media screen and (max-width: $screen--s) {
+    .intro__container {
+        margin: 50px 0 0 50px;
+    }
+}
+
+@media screen and (max-width: $screen--xs) {
+    .intro__container {
+        margin: 40px 0 0 17px;
+    }
+}

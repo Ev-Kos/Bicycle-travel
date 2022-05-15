@@ -1,0 +1,17 @@
+.footer__author {
+    max-width: 123px;
+    font-size: $font-size--header-nav;
+    font-weight: $font-weight--SemiBold;
+    line-height: $line-height;
+    color: $text-color--footer-author-light;
+    margin: 0;
+    padding: 14px 0 0 2px;
+   
+}
+
+@media screen and (max-width: $screen--s) {
+    .footer__author {
+        max-width: 122px;
+        font-weight: $font-weight--medium;
+    }
+}

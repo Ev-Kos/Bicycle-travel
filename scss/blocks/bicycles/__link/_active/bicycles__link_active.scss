@@ -1,0 +1,8 @@
+.bicycles__link_active {
+    font-weight: $font-weight--SemiBold;
+    opacity: 1;
+}
+
+.bicycles__link_active:hover {
+    opacity: 0.75;
+}

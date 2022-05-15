@@ -1,0 +1,37 @@
+.intro__description {
+    font-size: $font-size--description;
+    font-weight: $font-weight--regular;
+    line-height: 1.5;
+    max-width: 426px;
+    color: $text-color--description-light;
+    opacity: 0.7;
+    margin: 43px 0 0 0;
+}
+
+@media screen and (max-width: $screen--lg) {
+    .intro__description {
+        max-width: 370px;
+        font-size: $font-size--quote-author-profession;
+    }
+}
+
+@media screen and (max-width: $screen--md) {
+    .intro__description {
+        max-width: 254px;
+        font-size: $font-size--description-mobile;
+    }
+}
+
+
+@media screen and (max-width: $screen--s) {
+    .intro__description {
+        max-width: 284px;
+        margin: 36px 0 0 50px;
+    }
+}
+
+@media screen and (max-width: $screen--xs) {
+    .intro__description {
+        margin: 36px 18px 0 18px;
+    }
+}

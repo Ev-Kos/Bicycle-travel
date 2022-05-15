@@ -1,0 +1,15 @@
+.intro__text-button {
+    color: $text-color--title-dark;
+    font-size: $font-size--header-nav;
+    font-weight: $font-weight--SemiBold;
+    line-height: $line-height;
+    letter-spacing: 1.2px;
+    margin: 16px 40px 16px 40px;
+}
+
+@media screen and (max-width: $screen--xs) {
+    .intro__text-button {
+        font-size: 13px;
+        margin: 14px 95px 13px 95px;
+    }
+}

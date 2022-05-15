@@ -1,0 +1,12 @@
+.intro__sticky-name-conteiner {
+    display: flex;
+    margin: 164px 0 0 0;
+    max-width: 356px;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: $screen--lg) {
+    .intro__sticky-name-conteiner {
+        display: none;
+    }
+}

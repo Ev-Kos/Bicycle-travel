@@ -1,0 +1,10 @@
+.bicycles-mobile {
+    display: none;
+}
+
+@media screen and (max-width: $screen--s) {
+    .bicycles-mobile {
+        display: flex;
+        flex-direction: column;
+    }
+}

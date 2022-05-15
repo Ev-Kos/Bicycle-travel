@@ -1,0 +1,31 @@
+.quote__image {
+    margin: 117px 0 125px 120px;
+    max-width: 650px;
+}
+
+@media screen and (max-width: $screen--lg) {
+    .quote__image {
+        margin: 60px 0 30px 60px;
+        max-width: 450px;
+    }
+}
+
+@media screen and (max-width: $screen--md) {
+    .quote__image {
+        margin: 50px 0 20px 50px;
+        max-width: 380px;
+    }
+}
+
+@media screen and (max-width: $screen--s) {
+    .quote__image {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: $screen--xs) {
+    .quote__image {
+        margin: 18px 18px 0 18px;
+        max-width: 284px;
+    }
+}

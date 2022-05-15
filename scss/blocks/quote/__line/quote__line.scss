@@ -1,0 +1,10 @@
+.quote__line {
+    display: none;
+}
+
+@media screen and (max-width: $screen--xs) {
+    .quote__line {
+        display: inline;
+        margin: 0 auto;
+    }
+}

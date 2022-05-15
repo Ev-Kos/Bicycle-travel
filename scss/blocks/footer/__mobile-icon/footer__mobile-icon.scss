@@ -1,0 +1,10 @@
+.footer__mobile-icon {
+    display: none;
+}
+
+@media screen and (max-width: $screen--s) {
+    .footer__mobile-icon {
+        display: inline;
+        max-width: 38px;
+    }
+}

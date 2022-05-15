@@ -1,0 +1,9 @@
+.bicycles {
+    display: flex;
+}
+
+@media screen and(max-width: $screen--xs) {
+    .bicycles {
+        display: none;
+    }
+}

@@ -1,0 +1,12 @@
+.bicycles-conteiner {
+    margin: 99px 0 0 0;
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: $screen--s) {
+    .bicycles-conteiner {
+        display: none;
+    }
+}

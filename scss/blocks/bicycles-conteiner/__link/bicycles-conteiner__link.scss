@@ -1,0 +1,10 @@
+.bicycles-conteiner__link {
+    grid-row: 1;
+    grid-column: 1;
+    z-index: 2;
+}
+
+.bicycles-conteiner__link:hover {
+    cursor: url(../../../../image/icon-cursor.svg), pointer;
+    opacity: 0.7;
+}

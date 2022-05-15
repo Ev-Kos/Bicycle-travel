@@ -1,0 +1,12 @@
+.header__nav-links {
+    gap: 30px;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+}
+
+@media screen and (max-width: $screen--s) {
+    .header__nav-links {
+        display: none;
+    }
+}

@@ -1,0 +1,15 @@
+.road__sticky-line {
+    position: relative;
+    left: 14px;
+    bottom: 30px;
+    max-width: 50px;
+}
+
+@media screen and(max-width: $screen--s) {
+    .road__sticky-line {
+        left: 10px;
+        bottom: 26px;
+        max-width: 35px;
+        max-height: 12px;
+    }
+}

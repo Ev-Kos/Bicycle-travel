@@ -1,0 +1,13 @@
+.workouts__container {
+    display: grid;
+    grid-template-rows: repeat(4, auto);
+    grid-template-columns: repeat(2, auto);
+}
+
+@media screen and (max-width: $screen--xs) {
+    .workouts__container {
+        display: grid;
+        grid-template-columns: auto;
+        margin: 40px 0 0 0;
+    }
+}

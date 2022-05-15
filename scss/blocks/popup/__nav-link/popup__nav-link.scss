@@ -1,0 +1,13 @@
+.popup__nav-link {
+    font-size: $font-size--description;
+    font-weight: $font-weight--medium;
+    line-height: $line-height;
+    text-decoration: none;
+    color: $text-color--title-light;
+    letter-spacing: 0.7px;
+}
+
+.popup__nav-link:hover {
+    cursor: url(../../../../image/icon-cursor.svg), pointer;
+    opacity: 0.75;
+}

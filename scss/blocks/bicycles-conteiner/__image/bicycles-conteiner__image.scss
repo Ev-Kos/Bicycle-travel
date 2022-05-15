@@ -1,0 +1,14 @@
+.bicycles-conteiner__image {
+    max-width: 340px;
+    grid-row: 1;
+    grid-column: 1;
+    z-index: 1;
+    margin: 20px;
+}
+
+@media screen and (max-width: $screen--xs){
+    .bicycles-conteiner__image {
+        max-width: 254.11px;
+        margin: 14.95px 14.95px 36.95px 14.95px;
+    }   
+}

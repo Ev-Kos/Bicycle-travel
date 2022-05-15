@@ -1,0 +1,9 @@
+.road__sticky-image {
+    max-width: 100px;
+}
+
+@media screen and(max-width: $screen--xs) {
+    .road__sticky-image {
+        max-width: 70px;
+    }
+}

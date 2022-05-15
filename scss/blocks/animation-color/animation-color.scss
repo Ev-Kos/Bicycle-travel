@@ -1,0 +1,18 @@
+@keyframes animation-color {
+    from {
+        background-color: $button-color;
+    }
+    20% {
+        background-image: linear-gradient(90deg, $button-color-hover 0 46px, $button-color 36px 180px);
+    }
+    60% {
+        background-image: linear-gradient(90deg, $button-color-hover 0 106px, $button-color 76px 180px);
+    }
+    to {
+        background-color: $button-color-hover;
+    }
+} 
+
+.animation-color {
+    animation: animation-color 1s ease normal forwards;
+}    

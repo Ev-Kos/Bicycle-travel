@@ -1,0 +1,29 @@
+.intro__title {
+    color: $text-color--title-light;
+    max-width: 320px;
+    font-weight: $font-weight--bold;
+    font-size: $font-size--title;
+    line-height: 1.1;
+}
+
+@media screen and (max-width: $screen--lg) {
+    .intro__title {
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: $screen--s) {
+    .intro__title {
+        margin: 40px 0 0 50px;
+        max-width: 250px;
+        font-size: $font-size--title-mobile;
+        line-height: 1.2;
+    }
+}
+
+@media screen and (max-width: $screen--xs) {
+    .intro__title {
+        margin: 40px 18px 0 18px;
+        max-width: 190px;
+    }
+}

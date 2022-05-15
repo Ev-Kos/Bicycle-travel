@@ -1,0 +1,10 @@
+.road__button_theme_dark {
+    box-shadow: none;
+    background-color: $button-color--road;
+    color: $text-color--title-dark;
+}
+
+.road__button_theme_dark:hover {
+    opacity: 0.6;
+    cursor: url(../../../../../image/icon-cursor-dark.svg), pointer;
+}

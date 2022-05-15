@@ -1,0 +1,16 @@
+.bicycles-conteiner__fond {
+    max-width: 380px;
+    max-height: 380px;
+    box-shadow: 0px 20px 140px 0px #0000000F;
+    border-radius: 20px;
+    grid-row: 1;
+    grid-column: 1;
+}
+
+@media screen and (max-width: $screen--xs){
+    .bicycles-conteiner__fond {
+        max-width: 284px;
+        max-height: 306px;
+        grid-column: 1;
+    }    
+}

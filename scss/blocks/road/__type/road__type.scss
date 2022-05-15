@@ -1,0 +1,14 @@
+.road__type {
+    margin: 0;
+    font-size: $font-size--title;
+    font-weight: $font-weight--bold;
+    line-height: $line-height;
+    color: $text-color--title-light;
+}
+
+@media screen and(max-width: $screen--s) {
+    .road__type {
+        font-size: $font-size--title-mobile;
+        font-weight: $font-weight--bold;
+    }
+}

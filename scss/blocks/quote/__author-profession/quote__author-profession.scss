@@ -1,0 +1,14 @@
+.quote__author-profession {
+    font-size: $font-size--quote-author-profession;
+    font-weight: $font-weight--regular;
+    line-height: $line-height;
+    color: $text-color--description-light;
+    margin: 18px 0 0 0;
+}
+
+@media screen and (max-width: $screen--md) {
+    .quote__author-profession {
+        font-size: $font-size--quote-author-profession-mobile;
+        margin: 12px 0 0 0;
+    }
+}
