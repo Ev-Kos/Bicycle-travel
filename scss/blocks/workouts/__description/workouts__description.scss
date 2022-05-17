@@ -19,7 +19,6 @@
 @media screen and (max-width: $screen--s) {
     .workouts__description {
         font-size: $font-size--header-nav;
-        max-width: 360px;
         margin: 40px 0 0 0;
         grid-row: 3;
     }

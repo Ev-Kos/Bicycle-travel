@@ -16,8 +16,15 @@
 
 @media screen and (max-width: $screen--md) {
     .quote__text {
-        font-size: 22px;
+        font-size: $font-size--description;
         max-width: 284px;
+        letter-spacing: 0.2px;
+    }
+}
+
+@media screen and (max-width: $screen--xs) {
+    .quote__text {
+        font-size: 22px;
         letter-spacing: 0.2px;
     }
 }

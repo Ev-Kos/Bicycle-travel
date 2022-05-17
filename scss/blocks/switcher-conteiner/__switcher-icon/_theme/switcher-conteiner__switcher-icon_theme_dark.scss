@@ -1,0 +1,11 @@
+.switcher-conteiner__switcher-icon_theme_dark {
+    background: $swither-color--switcher-dark;
+}
+
+.switcher-conteiner__switcher-icon_theme_dark::before {
+    background: $swither-color--switcher-dark;
+}
+
+.switcher-conteiner__switcher-icon_theme_dark::after {
+    left: 22px;
+}

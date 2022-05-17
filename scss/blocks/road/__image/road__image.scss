@@ -1,23 +1,29 @@
 .road__image {
-    max-width: 100%;
+    max-width: 630px;
     object-fit: fill;
 }
 
-@media screen and(max-width: $screen--lg) {
+@media screen and(max-width: $screen--xl-min) {
     .road__image {
-        max-width: 445px;
+        max-width: 499px;
+    }
+}
+
+@media screen and(max-width: $screen--lg-max) {
+    .road__image {
+        max-width: 444px;
     }
 }
 
 @media screen and(max-width: $screen--md) {
     .road__image {
-        max-width: 330px;
+        max-width: 329px;
     }
 }
 
 @media screen and(max-width: $screen--s) {
     .road__image {
-        max-width: 362px;
+        max-width: 361px;
         margin: 45px 0 0 50px;
     }
 }

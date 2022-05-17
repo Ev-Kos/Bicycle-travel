@@ -1,4 +1,4 @@
-.footer__switcher-icon {
+.switcher-conteiner__switcher-icon {
     margin: 0;
     padding: 0;
     position: relative;
@@ -9,7 +9,7 @@
     border-radius:16px;
 }
     
-.footer__switcher-icon::before {
+.switcher-conteiner__switcher-icon::before {
     content: ' ';
     position: absolute;
     left: -3px;
@@ -22,7 +22,7 @@
     border-radius:16px;
 }
     
-.footer__switcher-icon::after {
+.switcher-conteiner__switcher-icon::after {
     content: ' ';
     height: 20px;
     width: 20px;

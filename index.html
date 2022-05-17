@@ -16,9 +16,9 @@
                 <li><a class="header__nav-link" href="#workouts">Тренировки</a></li>
             </ul>
             <button type="button" class="header__nav-icon-conteiner">
-                <img class="header__nav-icon" src="./image/icon-line-header.svg" alt="#">
-                <img class="header__nav-icon" src="./image/icon-line-header.svg" alt="#">
-                <img class="header__nav-icon" src="./image/icon-line-header.svg" alt="#">
+                <span class="header__nav-icon"></span>
+                <span class="header__nav-icon"></span>
+                <span class="header__nav-icon"></span>
             </button>
         </nav>
     </header>
@@ -54,7 +54,7 @@
             </button>
         </section>
         <section class="quote">
-            <div class="quote__line">
+            <div class="line">
                 <svg width="284" height="1" viewBox="0 0 284 1" fill="none" xmlns="http://www.w3.org/2000/svg"><path stroke="#E3E3E3" d="M0 .5h284"/></svg>
             </div>
             <img class="quote__image" src="./image/image-quote.png" alt="Фотография велосипедиста на дороге среди гор">
@@ -67,17 +67,17 @@
         <section class="roads" id="roads">
             <template id="createRoads">
                 <div class="road road_hidden">
-                    <h2 class="road__type"></h2>
+                    <h2 class="title"></h2>
                     <p class="road__description"></p>
                     <div class="road__conteiner">
-                        <img class="road__image road__image-with-stycky" src="#" alt="#">
-                        <img class="road__image road__image-not-stycky" src="#" alt="#">
+                        <img class="road__image road__image-with-stycky" src="#" alt="Изображение дороги">
+                        <img class="road__image road__image-not-stycky" src="#" alt="Изображение дороги">
                     </div>
                     <div class="road__sticky-images">
                         <div class="road__sticky-image">
                             <svg width="98" height="40" viewBox="0 0 98 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h93.528c2.973 0 4.907 3.13 3.578 5.789l-16 32A4 4 0 0 1 77.528 40H0V0Z" fill="#24B47E"/></svg>
                         </div>
-                        <img class="road__sticky-line" src="#" alt="#">
+                        <img class="road__sticky-line" src="#" alt="Графическое обозначение вида дороги">
                     </div>
                     <div class="road__buttons"> 
                         <button type="button" class="road__button road__button-back">&#10094;</button>
@@ -89,32 +89,32 @@
         <section class="roads-mobile" id="roads-mobile">
             <template id="createRoadsMobile">
                 <div class="road-mobile road-mobile_hidden">
-                    <div class="quote__line">
+                    <div class="line">
                         <svg width="284" height="1" viewBox="0 0 284 1" fill="none" xmlns="http://www.w3.org/2000/svg"><path stroke="#E3E3E3" d="M0 .5h284"/></svg>
                     </div>
                     <div class="road-mobile__conteiner">
-                        <h2 class="road__type"></h2>
+                        <h2 class="title"></h2>
                         <div class="road__buttons"> 
                             <button type="button" class="road__button road__button-back">&#10094;</button>
                             <button type="button" class="road__button road__button-forward">&#10095;</button> 
                         </div>
                     </div>
-                        <img class="road__image road__image-with-stycky" src="#" alt="#">
+                        <img class="road__image road__image-with-stycky" src="#" alt="Изображение дороги">
                     <div class="road__sticky-images">
                         <div class="road__sticky-image">
                             <svg width="68" height="28" viewBox="0 0 68 28" xmlns="http://www.w3.org/2000/svg"><path d="M0 0h63.528c2.973 0 4.907 3.13 3.578 5.789l-10 20A4 4 0 0 1 53.528 28H0V0Z" fill="#24B47E"/></svg>
                         </div>
-                        <img class="road__sticky-line" src="#" alt="#">
+                        <img class="road__sticky-line" src="#" alt="Графическое изображение вида дороги">
                     </div>
                     <p class="road__description"></p>
                 </div> 
             </template>
         </section>
-       <section class="bicycles" id="bicycles">
+        <section class="bicycles" id="bicycles">
            <template id="createBicycles">
                <div class="bicycles__create-container bicycles__create-container_hidden">
                     <div class="bicycles__header-conteiner">
-                        <h2 class="road__type">Велосипеды</h2>
+                        <h2 class="title">Велосипеды</h2>
                         <ul class="bicycles__nav">
                             <li><a class="bicycles__link bicycles__link-highway">Шоссе</a></li>
                             <li><a class="bicycles__link bicycles__link-gravel">Грэвел</a></li>
@@ -125,21 +125,21 @@
                         <div class="bicycles-conteiner__card">
                             <div class="bicycles-conteiner__fond"></div>
                             <a class="bicycles-conteiner__link" href="#">
-                                <img class="bicycles-conteiner__image" src="#" alt="#">
+                                <img class="bicycles-conteiner__image" src="#" alt="Изображение велосипеда">
                             </a>
                             <p class="bicycles-conteiner__caption"></p>
                         </div>  
                         <div class="bicycles-conteiner__card">
                             <div class="bicycles-conteiner__fond"></div>
                             <a class="bicycles-conteiner__link" href="# ">
-                                <img class="bicycles-conteiner__image" src="#" alt="#">
+                                <img class="bicycles-conteiner__image" src="#" alt="Изображение велосипеда">
                             </a>
                             <p class="bicycles-conteiner__caption"></p>
                         </div>
                         <div class="bicycles-conteiner__card">
                             <div class="bicycles-conteiner__fond"></div>
                             <a class="bicycles-conteiner__link" href="#">
-                                <img class="bicycles-conteiner__image" src="#" alt="#">
+                                <img class="bicycles-conteiner__image" src="#" alt="Изображение велосипеда">
                             </a>
                             <p class="bicycles-conteiner__caption">#</p>
                         </div>  
@@ -150,11 +150,11 @@
        <section class="bicycles-mobile" id="bicycles-mobile">
            <template id="bicyclesMobTemplate">
                 <div class="bicycles-mobile__conteiner bicycles-mobile__conteiner_hidden">
-                    <div class="quote__line">
+                    <div class="line">
                         <svg width="284" height="1" viewBox="0 0 284 1" fill="none" xmlns="http://www.w3.org/2000/svg"><path stroke="#E3E3E3" d="M0 .5h284"/></svg>
                     </div>
                     <div class="bicycles-mobile__header-container">
-                        <h2 class="road__type">Велосипеды</h2>
+                        <h2 class="title">Велосипеды</h2>
                         <select class="bicycles-mobile__filter-container">
                             <option>Шоссе</option>
                             <option>Грэвел</option>
@@ -164,17 +164,17 @@
                     <div class="bicycles-mobile-image">
                         <div class="bicycles-conteiner__card bicycles-conteiner__card_hidden">
                             <div class="bicycles-conteiner__fond"></div>
-                            <img class="bicycles-conteiner__image" src="#" alt="#">
+                            <img class="bicycles-conteiner__image" src="#" alt="Изображение велосипеда">
                             <p class="bicycles-conteiner__caption"></p>
                         </div>  
                         <div class="bicycles-conteiner__card bicycles-conteiner__card_hidden">
                             <div class="bicycles-conteiner__fond"></div>
-                            <img class="bicycles-conteiner__image" src="#" alt="#">
+                            <img class="bicycles-conteiner__image" src="#" alt="Изображение велосипеда">
                             <p class="bicycles-conteiner__caption"></p>
                         </div> 
                         <div class="bicycles-conteiner__card bicycles-conteiner__card_hidden">
                             <div class="bicycles-conteiner__fond"></div>
-                            <img class="bicycles-conteiner__image" src="#" alt="#">
+                            <img class="bicycles-conteiner__image" src="#" alt="Изображение велосипеда">
                             <p class="bicycles-conteiner__caption"></p>
                         </div> 
                     </div>
@@ -186,12 +186,12 @@
                 </div> 
             </template>   
         </section>
-         <section class="workouts" id="workouts">
-            <div class="quote__line">
+        <section class="workouts" id="workouts">
+            <div class="line">
                 <svg width="284" height="1" viewBox="0 0 284 1" fill="none" xmlns="http://www.w3.org/2000/svg"><path stroke="#E3E3E3" d="M0 .5h284"/></svg>
             </div>
             <div class="workouts__container">
-                <h2 class="road__type">Тренировки</h2>
+                <h2 class="title">Тренировки</h2>
                 <img class="workouts__image" src="./image/workouts__image.png" alt="Фотография дороги в лесу">
                 <p class="workouts__description">Чтобы найти маршрут для тренировки можно воспользоваться сервисом Komoot, а записать эти тренировки поможет приложение Strava, а также это приложение позволит построить тренировочный план.</p>
                 <div class="workouts__links">
@@ -205,20 +205,22 @@
         <h3 class="footer__title">Подпишитесь на рассылку —</h3>
         <form class="footer__form">
             <input class="footer__input" type="email" name="emailUser" placeholder="Ваш e-mail">
-            <input class="footer__input-text footer__input-text_hidden" type="text" value="ok">
+            <button class="footer__input-text footer__input-text_hidden">ok</button>
         </form>
         <div class="footer__conteiner">
             <p class="footer__author">&copy; Road Club 2021</p>
-            <img class="footer__mobile-icon" src="./image/logo-mobile.svg" alt="#">
-            <div class="footer__switcher-conteiner">
-                <div class="footer__icon-sun">
+            <div class="footer__mobile-icon">
+                <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M17.765 5.508c.424-1.147 2.046-1.147 2.47 0a2.816 2.816 0 0 0 4.442 1.19c.94-.781 2.345.03 2.139 1.235a2.816 2.816 0 0 0 3.251 3.252c1.205-.207 2.017 1.198 1.235 2.138a2.816 2.816 0 0 0 1.19 4.442c1.147.424 1.147 2.046 0 2.47a2.816 2.816 0 0 0-1.19 4.442c.782.94-.03 2.345-1.235 2.139a2.816 2.816 0 0 0-3.252 3.251c.207 1.205-1.198 2.017-2.138 1.235a2.816 2.816 0 0 0-4.442 1.19c-.424 1.147-2.046 1.147-2.47 0a2.816 2.816 0 0 0-4.442-1.19c-.94.782-2.345-.03-2.139-1.235a2.816 2.816 0 0 0-3.251-3.252c-1.205.207-2.016-1.198-1.235-2.138a2.816 2.816 0 0 0-1.19-4.442c-1.147-.424-1.147-2.046 0-2.47a2.816 2.816 0 0 0 1.19-4.442c-.781-.94.03-2.345 1.235-2.139a2.816 2.816 0 0 0 3.252-3.251c-.207-1.205 1.198-2.016 2.138-1.235a2.816 2.816 0 0 0 4.442-1.19Z" stroke="#151515" stroke-width="1.5"/></svg>
+            </div>
+            <div class="switcher-conteiner">
+                <div class="switcher-conteiner__icon-sun">
                     <svg width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M14 0a1.4 1.4 0 0 1 1.4 1.4v1.4a1.4 1.4 0 0 1-2.8 0V1.4A1.4 1.4 0 0 1 14 0ZM4.1 4.1a1.4 1.4 0 0 1 1.98 0l.99.99a1.4 1.4 0 1 1-1.98 1.98l-.99-.99a1.4 1.4 0 0 1 0-1.98Zm19.8 0a1.4 1.4 0 0 1 0 1.98l-.99.99a1.4 1.4 0 0 1-1.98-1.98l.99-.99a1.4 1.4 0 0 1 1.98 0ZM7 14a7 7 0 1 1 14 0 7 7 0 0 1-14 0Zm-7 0a1.4 1.4 0 0 1 1.4-1.4h1.4a1.4 1.4 0 1 1 0 2.8H1.4A1.4 1.4 0 0 1 0 14Zm23.8 0a1.4 1.4 0 0 1 1.4-1.4h1.4a1.4 1.4 0 1 1 0 2.8h-1.4a1.4 1.4 0 0 1-1.4-1.4Zm-2.87 6.93a1.399 1.399 0 0 1 1.98 0l.99.99a1.401 1.401 0 0 1-1.526 2.283 1.401 1.401 0 0 1-.454-.303l-.99-.99a1.399 1.399 0 0 1 0-1.98Zm-15.84 0a1.4 1.4 0 1 1 1.98 1.98l-.99.99a1.4 1.4 0 0 1-1.98-1.98l.99-.99ZM14 23.8a1.4 1.4 0 0 1 1.4 1.4v1.4a1.4 1.4 0 1 1-2.8 0v-1.4a1.4 1.4 0 0 1 1.4-1.4Z" fill="#CFCFCF"/></svg>
                 </div>
                 <form>
-                    <input type="checkbox" class="footer__switcher"/>
-                    <div class="footer__switcher-icon"></div>
+                    <input type="checkbox" class="switcher-conteiner__switcher"/>
+                    <div class="switcher-conteiner__switcher-icon"></div>
                 </form>
-                <div class="footer__icon-moon">
+                <div class="switcher-conteiner__icon-moon">
                     <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.353.939a1 1 0 0 1 .22 1.08 8 8 0 0 0 10.408 10.408 1 1 0 0 1 1.301 1.3A10.004 10.004 0 0 1 10 20C4.477 20 0 15.523 0 10 0 5.793 2.598 2.195 6.273.718a1 1 0 0 1 1.08.22Z" fill="#CFCFCF"/></svg>
                 </div>
             </div>
@@ -233,15 +235,15 @@
                 <li><a class="popup__nav-link" href="#workouts">Тренировки</a></li>
             </ul>
         </nav>
-        <div class="footer__switcher-conteiner footer__switcher-conteiner_mobile_open">
-            <div class="footer__icon-sun">
+        <div class="switcher-conteiner switcher-conteiner_mobile_open">
+            <div class="switcher-conteiner__icon-sun">
                 <svg width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M14 0a1.4 1.4 0 0 1 1.4 1.4v1.4a1.4 1.4 0 0 1-2.8 0V1.4A1.4 1.4 0 0 1 14 0ZM4.1 4.1a1.4 1.4 0 0 1 1.98 0l.99.99a1.4 1.4 0 1 1-1.98 1.98l-.99-.99a1.4 1.4 0 0 1 0-1.98Zm19.8 0a1.4 1.4 0 0 1 0 1.98l-.99.99a1.4 1.4 0 0 1-1.98-1.98l.99-.99a1.4 1.4 0 0 1 1.98 0ZM7 14a7 7 0 1 1 14 0 7 7 0 0 1-14 0Zm-7 0a1.4 1.4 0 0 1 1.4-1.4h1.4a1.4 1.4 0 1 1 0 2.8H1.4A1.4 1.4 0 0 1 0 14Zm23.8 0a1.4 1.4 0 0 1 1.4-1.4h1.4a1.4 1.4 0 1 1 0 2.8h-1.4a1.4 1.4 0 0 1-1.4-1.4Zm-2.87 6.93a1.399 1.399 0 0 1 1.98 0l.99.99a1.401 1.401 0 0 1-1.526 2.283 1.401 1.401 0 0 1-.454-.303l-.99-.99a1.399 1.399 0 0 1 0-1.98Zm-15.84 0a1.4 1.4 0 1 1 1.98 1.98l-.99.99a1.4 1.4 0 0 1-1.98-1.98l.99-.99ZM14 23.8a1.4 1.4 0 0 1 1.4 1.4v1.4a1.4 1.4 0 1 1-2.8 0v-1.4a1.4 1.4 0 0 1 1.4-1.4Z" fill="#CFCFCF"/></svg>
             </div>
             <form>
-                <input type="checkbox" class="footer__switcher"/>
-                <div class="footer__switcher-icon"></div>
+                <input type="checkbox" class="switcher-conteiner__switcher"/>
+                <div class="switcher-conteiner__switcher-icon"></div>
             </form>
-            <div class="footer__icon-moon">
+            <div class="switcher-conteiner__icon-moon">
                 <svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M7.353.939a1 1 0 0 1 .22 1.08 8 8 0 0 0 10.408 10.408 1 1 0 0 1 1.301 1.3A10.004 10.004 0 0 1 10 20C4.477 20 0 15.523 0 10 0 5.793 2.598 2.195 6.273.718a1 1 0 0 1 1.08.22Z" fill="#CFCFCF"/></svg>
             </div>
         </div>

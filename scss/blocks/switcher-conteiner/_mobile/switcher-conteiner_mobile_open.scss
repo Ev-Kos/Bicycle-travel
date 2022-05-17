@@ -1,9 +1,9 @@
-.footer__switcher-conteiner_mobile_open {
+.switcher-conteiner_mobile_open {
     display: none;
 }
 
 @media screen and (max-width: $screen--s) {
-    .footer__switcher-conteiner_mobile_open {
+    .switcher-conteiner_mobile_open {
         display: flex;
         margin: 295px auto 34px;
     }

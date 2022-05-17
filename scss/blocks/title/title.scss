@@ -1,4 +1,4 @@
-.road__type {
+.title {
     margin: 0;
     font-size: $font-size--title;
     font-weight: $font-weight--bold;
@@ -7,8 +7,7 @@
 }
 
 @media screen and(max-width: $screen--s) {
-    .road__type {
+    .title {
         font-size: $font-size--title-mobile;
-        font-weight: $font-weight--bold;
     }
 }

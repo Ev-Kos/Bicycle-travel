@@ -1,17 +1,17 @@
 //добавление и удаление анимации у кнопки "Подробнее"
 
-const buttonDetail = document.querySelector('.intro__button');
+const buttonDetail = document.querySelectorAll('.intro__button');
 
-buttonDetail.addEventListener('mouseover', function () {
-    buttonDetail.classList.add('animation-color');
-});
-
-buttonDetail.addEventListener('mouseout', function () {
-    buttonDetail.classList.remove('animation-color');
-});
-
-buttonDetail.addEventListener('click', function () {
-    location = '#roads';
+buttonDetail.forEach(function(obj) {
+    obj.addEventListener('mouseover', function () {
+        obj.classList.add('animation-color');
+    });
+    obj.addEventListener('mouseout', function () {
+        obj.classList.remove('animation-color');
+    });
+    obj.addEventListener('click', function () {
+        location = '#roads';
+    });
 });
 
 //формирование десктопной секции roads
@@ -20,7 +20,7 @@ const roads = document.querySelector('.roads');
 
 function createRoads(obj) {
     const road = roadsTemplate.querySelector('.road').cloneNode(true);
-    road.querySelector('.road__type').textContent = obj.name;
+    road.querySelector('.title').textContent = obj.name;
     road.querySelector('.road__description').textContent = obj.text;
     road.querySelector('.road__image-with-stycky').src = obj.srcWithSticky;
     road.querySelector('.road__image-with-stycky').alt = obj.altWithSticky;
@@ -46,7 +46,7 @@ const roadsMob = document.querySelector('.roads-mobile');
 
 function createRoadsMob(obj) {
     const roadMob = roadsMobTemplate.querySelector('.road-mobile').cloneNode(true);
-    roadMob.querySelector('.road__type').textContent = obj.name;
+    roadMob.querySelector('.title').textContent = obj.name;
     roadMob.querySelector('.road__description').textContent = obj.text;
     roadMob.querySelector('.road__image-with-stycky').src = obj.srcWithSticky;
     roadMob.querySelector('.road__image-with-stycky').alt = obj.altWithSticky;
@@ -339,29 +339,30 @@ const inputForm = document.querySelector('.footer__form');
 const input = document.querySelector('.footer__input');
 const imputText = document.querySelector('.footer__input-text');
 
-input.addEventListener('focus', function() {
-    imputText.classList.remove('footer__input-text_hidden');
-  });
-  
-  input.addEventListener('focusout', function() {
-    imputText.classList.add('footer__input-text_hidden');
-  });
-  
-  inputForm.addEventListener('submit', function(evt) {
-    evt.preventDefault();
-    
-    if (input.value.length > 1 && input.value === 'Круто!') {
+input.addEventListener('input', function() {
+    if (input.value.length > 0) {
+        imputText.classList.remove('footer__input-text_hidden');
+    } 
+    else {
         imputText.classList.add('footer__input-text_hidden');
     }
-
-    evt.target.reset();
   });
+  
+  inputForm.addEventListener('submit', (e) => {
+        e.preventDefault();
+        input.value = 'Круто!'
+        setTimeout(() => {
+          input.value = '';
+          imputText.classList.add('footer__input-text_hidden');
+        }, 2000)
+      });
 
   //открытие и закрытие меню header-mobile
 
   const headerPopup = document.querySelector('.popup');
   const headerNav = document.querySelector('.header__nav-icon-conteiner');
   const buttonClose = document.querySelector('.popup__close');
+  const links = document.querySelectorAll('.popup__nav-link');
 
   headerNav.addEventListener('click', function() {
     headerPopup.classList.add('popup_opened');
@@ -371,9 +372,16 @@ input.addEventListener('focus', function() {
     headerPopup.classList.remove('popup_opened');
   });
 
+  links.forEach(function(elem) {
+    elem.addEventListener('click', function() {
+        headerPopup.classList.remove('popup_opened');
+    })
+  })
+
+
   //включение и выключение темной темы
 
-  const switchersTheme = document.querySelectorAll('.footer__switcher-icon');
+  const switchersTheme = document.querySelectorAll('.switcher-conteiner__switcher-icon');
   const page = document.querySelector('.page');
 
   function darkTheme() {
@@ -413,12 +421,12 @@ input.addEventListener('focus', function() {
   
   switchersTheme.forEach(function(element) {
       element.addEventListener('click', function() {
-        if (element.classList.contains('footer__switcher-icon_theme_dark')) {
-            element.classList.toggle('footer__switcher-icon_theme_dark');
+        if (element.classList.contains('switcher-conteiner__switcher-icon_theme_dark')) {
+            element.classList.toggle('switcher-conteiner__switcher-icon_theme_dark');
             lightTheme();
         }
         else {
-            element.classList.toggle('footer__switcher-icon_theme_dark');
+            element.classList.toggle('switcher-conteiner__switcher-icon_theme_dark');
             darkTheme();
         }
       });   

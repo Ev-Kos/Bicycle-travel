@@ -1,19 +1,18 @@
 .intro__sticky-image {
     position: absolute;
     top: 306px;
-    right: calc(171px - (1440px - 100vw));
+    right: calc(100vw - 1440px);
 }
 
 @media screen and (max-width: $screen--xl) {
     .intro__sticky-image {
-        right: 171px;
+        right: calc(171px - (1440px - 100vw));
         width: 879px;
     }
 }
 
 @media screen and (max-width: $screen--lg-max) {
     .intro__sticky-image {
-        right: 171px;
         width: 752px;
     }
 }
@@ -32,12 +31,11 @@
     }
 }
 
-
 @media screen and (max-width: $screen--s) {
     .intro__sticky-image {
         width: 460px;
         top: 112px;
-        right: calc(282px - (768px - 100vw));
+        right: calc(300px - (768px - 100vw));
     }
 }
 
