@@ -1325,6 +1325,11 @@ template {
   justify-content: space-between;
 }
 
+@media screen and (max-width: 994px) {
+  .bicycles__header-conteiner {
+    max-width: 776px;
+  }
+}
 @media screen and (max-width: 768px) {
   .bicycles__header-conteiner {
     display: none;
@@ -1342,6 +1347,12 @@ template {
   opacity: 0.6;
 }
 
+@media screen and (max-width: 994px) {
+  .bicycles__nav {
+    gap: 28px;
+    padding: 0;
+  }
+}
 .bicycles__link_theme_dark {
   color: #E5E5E5;
 }
