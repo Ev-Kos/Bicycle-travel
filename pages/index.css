@@ -1398,13 +1398,13 @@ template {
 }
 
 .bicycles-mobile__point {
-  background-image: url(../../../../image/point.svg);
+  background-image: url(../image/point.svg);
   width: 4px;
   height: 4px;
 }
 
 .bicycles-mobile__point_active {
-  background-image: url(../../../../../image/point-active.svg);
+  background-image: url(../image/point-active.svg);
 }
 
 .bicycles-mobile__conteiner {
@@ -1893,7 +1893,7 @@ template {
 }
 
 .popup__close {
-  background-image: url(../../../../image/close-button.svg);
+  background-image: url(../image/close-button.svg);
   background-color: transparent;
   background-position: center;
   background-size: cover;
@@ -1905,7 +1905,7 @@ template {
 }
 
 .popup__close:hover {
-  cursor: url(../../../../image/icon-cursor.svg), pointer;
+  cursor: url(../image/icon-cursor.svg), pointer;
   opacity: 0.75;
 }
 

@@ -1,5 +1,5 @@
 .popup__close {
-    background-image: url(../../../../image/close-button.svg);
+    background-image: url(../image/close-button.svg);
     background-color: transparent;
     background-position: center;
     background-size: cover;
@@ -11,6 +11,6 @@
 }
 
 .popup__close:hover {
-    cursor: url(../../../../image/icon-cursor.svg), pointer;
+    cursor: url(../image/icon-cursor.svg), pointer;
     opacity: 0.75;
 }
