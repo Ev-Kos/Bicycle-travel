@@ -3,32 +3,32 @@
     object-fit: fill;
 }
 
-@media screen and(max-width: $screen--xl-min) {
+@media screen and (max-width: $screen--xl-min) {
     .road__image {
         max-width: 499px;
     }
 }
 
-@media screen and(max-width: $screen--lg-max) {
+@media screen and (max-width: $screen--lg-max) {
     .road__image {
         max-width: 444px;
     }
 }
 
-@media screen and(max-width: $screen--md) {
+@media screen and (max-width: $screen--md) {
     .road__image {
         max-width: 329px;
     }
 }
 
-@media screen and(max-width: $screen--s) {
+@media screen and (max-width: $screen--s) {
     .road__image {
         max-width: 361px;
         margin: 45px 0 0 50px;
     }
 }
 
-@media screen and(max-width: $screen--xs) {
+@media screen and (max-width: $screen--xs) {
     .road__image {
         max-width: 284px;
         margin: 44px 0 0 18px;

@@ -8,13 +8,13 @@
     grid-row: 3;
 }
 
-@media screen and(max-width: $screen--lg-max) {
+@media screen and (max-width: $screen--lg-max) {
     .road__images {
         gap: 10px;
     }
 }
 
-@media screen and(max-width: $screen--s) {
+@media screen and (max-width: $screen--s) {
     .road__images {
         gap: 0;
         grid-template-columns: none;

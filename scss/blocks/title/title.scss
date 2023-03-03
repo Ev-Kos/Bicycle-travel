@@ -6,7 +6,7 @@
     color: $text-color--title-light;
 }
 
-@media screen and(max-width: $screen--s) {
+@media screen and (max-width: $screen--s) {
     .title {
         font-size: $font-size--title-mobile;
     }

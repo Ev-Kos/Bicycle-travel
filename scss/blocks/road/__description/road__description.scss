@@ -8,7 +8,7 @@
     opacity: 0.7;
 }
 
-@media screen and(max-width: $screen--s) {
+@media screen and (max-width: $screen--s) {
     .road__description {
         margin: 30px 0 0 50px;
         font-size: $font-size--header-nav;
@@ -16,7 +16,7 @@
     }
 }
 
-@media screen and(max-width: $screen--xs) {
+@media screen and (max-width: $screen--xs) {
     .road__description {
         margin: 0 18px 0 18px;
         font-size: $font-size--description-mobile;

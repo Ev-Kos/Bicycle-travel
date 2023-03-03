@@ -6,11 +6,11 @@
 }
 
 .bicycles__link:hover {
-    cursor: url(../../../../../image/icon-cursor.svg), pointer;
+    cursor: url(../image/icon-cursor.svg), pointer;
     opacity: 0.6;
 }
 
-@media screen and(max-width: $screen--md) {
+@media screen and (max-width: $screen--md) {
     .bicycles__nav {
         gap: 28px;
         padding: 0;

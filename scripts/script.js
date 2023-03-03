@@ -67,7 +67,6 @@ initialCardsRoads.forEach(function(obj) {
 //переключение секции "road" вперед
 
 const buttonForvardArray = roads.querySelectorAll('.road__button-forward');
-
 buttonForvardArray.forEach(function(obj){
     obj.addEventListener('click', function () {
         const roadsArr = document.querySelectorAll('.road');
