@@ -6,17 +6,17 @@
 
 [Ссылка проекта на GitHub](https://ev-kos.github.io/Bicycle-travel/).
 
-**Используемые технологии**
-
-1. Flex-box
-2. Grid layout
-3. Файловая структура проекта организована по методологии БЭМ
-4. Java Script
-5. Scss
-
 **Функциональность проекта**
 
 * Проект выполнен в адаптивной вестке для разрешений 320px и 1440px
 * Реализовано перелистывание изображений по нажатию на кнопки
 * Динамическое создание блоков сайта JS
 * Возможно менять темную и светлую тему на сайте
+
+**Используемые технологии**
+
+<img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original-wordmark.svg" width="40" height="40"/>&nbsp; 
+<img src="https://github.com/devicons/devicon/blob/master/icons/css3/css3-original-wordmark.svg" width="40" height="40"/>&nbsp; 
+<img src="https://raw.githubusercontent.com/tandpfun/skill-icons/a50fa57465e82a1147fa512fb3d64cc5902df578/icons/Sass.svg" width="40" height="40"/>&nbsp;
+<img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" width="40" height="40"/>&nbsp; 
+
