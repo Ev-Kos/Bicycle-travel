@@ -310,7 +310,7 @@ template {
 
 @font-face {
   font-family: "Inter";
-  src: url("../vendor/fonts/Inter-Regular.woff2") format("woff2"), url("../../vendor/fonts/Inter-Regular.woff") format("woff");
+  src: url("../vendor/fonts/Inter-Regular.woff2") format("woff2"), url("../vendor/fonts/Inter-Regular.woff") format("woff");
   font-weight: 400;
 }
 @font-face {
@@ -325,7 +325,7 @@ template {
 }
 @font-face {
   font-family: "Inter";
-  src: url("../.vendor/fonts/Inter-Bold.woff2") format("woff2"), url("../vendor/fonts/Inter-Bold.woff") format("woff");
+  src: url("../vendor/fonts/Inter-Bold.woff2") format("woff2"), url("../vendor/fonts/Inter-Bold.woff") format("woff");
   font-weight: 700;
 }
 .page {
